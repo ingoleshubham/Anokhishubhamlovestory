@@ -191,15 +191,15 @@ function songPlay() {
   audio.play();
   setTimeout(function() {
     audio.pause();
-  }, 18000); // Stop playback after 17 seconds (17,000 milliseconds)
+  }, 59000); // Stop playback after 59 seconds (59,000 milliseconds)
 }
 
 
 // hiding and showing div
 
 const takingAns = ()  =>{
-  let a = prompt('To confirm, type "I love you" in the box below');
-  let b="I love you";
+  let a = prompt('To confirm, type "i love you" in the box below');
+  let b="i love you";
 
     if (a != b){
     alert("my stupid sweet 💗 heart darling just copy & paste you text from 'Yes...I love you' ");
@@ -207,10 +207,6 @@ const takingAns = ()  =>{
     }
 
 }
-
-
-
-
 
 btnYes.addEventListener("click", (e) => {
   
